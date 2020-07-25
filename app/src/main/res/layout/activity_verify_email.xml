@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyEmail">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/otpnotification"
+                android:layout_width="match_parent"
+                android:layout_height="239dp"
+                android:text="k"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/enterotp"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:background="#C6D8EC"
+                android:ems="10"
+                android:hint="Enter OTP "
+                android:inputType="textPersonName"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/submitotp"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="#A0B0E3"
+                android:text="Submit OTP"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

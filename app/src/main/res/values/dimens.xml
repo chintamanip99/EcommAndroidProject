@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="_200dp">200dp</dimen>
+    <dimen name="_206dp">206dp</dimen>
+    <dimen name="_86dp">86dp</dimen>
+    <dimen name="_55dp">55dp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_67dp">67dp</dimen>
+    <dimen name="_60dp">75dp</dimen>
+    <dimen name="_660dp">660dp</dimen>
+    <dimen name="_35dp" tools:ignore="DuplicateDefinition">35dp</dimen>
+</resources>

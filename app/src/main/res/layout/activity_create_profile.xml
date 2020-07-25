@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfile">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/linear_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="259dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/cart"
+                tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Username"
+                android:background="#C6D8EC"
+                android:ems="10"
+                android:hint="@string/firstname"
+                android:inputType="text"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Email"
+                android:background="#C6D8EC"
+                android:ems="10"
+                android:hint="@string/lastname"
+                android:inputType="text"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Username"
+                android:background="#C6D8EC"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="text"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/balance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Password"
+                android:background="#C6D8EC"
+                android:ems="10"
+                android:hint="@string/balance"
+                android:inputType="text"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="Password2"
+                android:background="#C6D8EC"
+                android:ems="10"
+                android:hint="@string/age"
+                android:inputType="text"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:background="#C6D8EC"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/address"
+                android:inputType="textMultiLine"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/createprofile"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:background="#A0B0E3"
+                android:text="@string/createprofile"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
